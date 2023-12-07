@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleesenha.css">
+    <title>ESQUECEU SENHA</title>
+
+</head>
+<body>
+    <div class="conteiner">
+        
+        <!--parte esquerda da tela-->
+        <section id="left">
+            <h1>Esqueceu sua senha?</h1><br>
+            <h2>Dica:<br>Anote em algum lugar seguro sua senha , para não esquecer novamente.</h2>
+        </section>
+
+        <!--parte direita da tela-->
+        <div class="card">
+            <section id="right">
+    
+                <form id="form" method="post" onsubmit="validarCampos()">
+        
+                    <h2>Alterar senha</h2><br>
+            
+                    <input type="text" id="email" name="senha" placeholder="NOVA SENHA">
+                    <input type="password" id="senha" name="confSenha" placeholder="CONFIRMAR SENHA">
+            
+                    <br><button type="submit" id="btn" >ENVIAR</button>
+        
+                    <br><a href="termo.html">Termos de uso</a>
+            
+                </form>
+        
+            </section>
+        </div>
+    </div>
+<script src="validar.js"></script>
+</body>
+</html>

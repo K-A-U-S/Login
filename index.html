@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>LOGIN</title>
+
+    <script src="validar.js" defer></script>
+</head>
+<body>
+    <div class="conteiner">
+        
+        <!--parte esquerda da tela-->
+        <section id="left">
+            <h1>SEJA<br>BEM-VINDO(A)!</h1><br>
+            <h2>Junte-se a nós e<br> encontre aquilo que<br> busca!</h2>
+        </section>
+
+        <!--parte direita da tela-->
+        <div class="card">
+            <section id="right">
+    
+                <form id="form" method="post" onsubmit="validarCampos()">
+        
+                    <h2>Login</h2><br>
+            
+                    <input type="text" id="email" name="email" placeholder="EMAIL">
+                    <input type="password" id="senha" name="senha" placeholder="SENHA">
+                    <a href="esqueceuSenha.html">Esqueceu a senha?</a>
+            
+                    <br><button type="submit" id="btn" >ENTRAR</button>
+        
+                    <br><a href="termo.html">Termos de uso</a>
+            
+                </form>
+        
+            </section>
+        </div>
+    </div>
+
+</body>
+</html>
